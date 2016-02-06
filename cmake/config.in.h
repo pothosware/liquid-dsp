@@ -1,0 +1,10 @@
+
+#define SIZEOF_INT ${SIZEOF_INT}
+#define SIZEOF_UNSIGNED_INT ${SIZEOF_UNSIGNED_INT}
+
+#cmakedefine01 HAVE_FFTW3_H
+
+#cmakedefine01 HAVE_MMINTRIN_H
+#cmakedefine01 HAVE_XMMINTRIN_H
+#cmakedefine01 HAVE_EMMINTRIN_H
+#cmakedefine01 HAVE_PMMINTRIN_H
